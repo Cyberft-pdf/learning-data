@@ -6,9 +6,9 @@ from pymongo import MongoClient
 load_dotenv(find_dotenv())
 
 
-password = os.environ.get("MONGODB_PWD")
+password = os.environ.get("")
 
-connection_string = f"mongodb+srv://adistein:{password}@tutorial.9rhpmmx.mongodb.net/?retryWrites=true&w=majority"
+connection_string = f""
 
 client = MongoClient(connection_string)
 
