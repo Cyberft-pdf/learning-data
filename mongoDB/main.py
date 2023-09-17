@@ -24,7 +24,7 @@ print(collections)
 def insert_test_doc():
     collections = test_db.test
     test_document = {
-        "name" : "Tim",
+        "name" : "Adel",
         "type" : "Test"
     }
     inserted_id = collections.insert_one(test_document).inserted_id
