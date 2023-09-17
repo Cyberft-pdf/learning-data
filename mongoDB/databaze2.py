@@ -5,6 +5,11 @@ databaze = ""
 klient = pymongo.MongoClient(f"")
 databaze = klient[""]
 
+"""
+Tohle slouží jako studijní materiáli 
+
+"""
+
 # Toto slouží pro test
 #kolekce = databaze["nakupy"]
 #nakup = kolekce.find_one()
