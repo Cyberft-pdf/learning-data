@@ -1,7 +1,10 @@
 
 import matplotlib.pyplot as plt
 
+"""
+Tohle slouží jako studijní materiáli 
 
+"""
 
 
 def vytvoreni_grafu():
