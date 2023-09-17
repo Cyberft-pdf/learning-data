@@ -3,6 +3,11 @@ import os
 import pprint
 from pymongo import MongoClient
 
+"""
+Tohle slouží jako studijní materiáli 
+
+"""
+
 load_dotenv(find_dotenv())
 
 
