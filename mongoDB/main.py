@@ -61,7 +61,7 @@ def find_all_people():
 
 def find_tim():
 
-    #tohle je jako filtrování "najdi jednu věc v koleci person_collection, která má první jméno Tim atd.. Můžu říct že je to vyhledávání"
+    #tohle je jako filtrování "najdi jednu věc v koleci person_collection, která má první jméno Adel atd.. Můžu říct že je to vyhledávání"
     tim = person_collection.find_one({"first_name": "Tim"})
 
 def count_all_people():
